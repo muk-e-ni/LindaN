@@ -1,0 +1,6 @@
+{
+  "name": "LindaNyota - Student Meal & Bursary Ecosystem",
+  "description": "AI-driven emergency meal voucher system, Financial Vulnerability Index (FVI), and bursary matching ecosystem for Kenyan universities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

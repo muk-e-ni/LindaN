@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #f7fff7;
+    --bg-secondary: #eef8ff;
+    --bg-surface: #fdffff;
+    --border-color: #dbdbdb;
+    --text-primary: #0b0c0e;
+    --text-muted: #5e6670;
+    --accent-sage: #186337;
+    --accent-sage-text: #ffffff;
+    --accent-soft: #F7EBEC;
+  }
+
+  .dark {
+    --bg-primary: #0b0c0e;
+    --bg-secondary: #161719;
+    --bg-surface: #232426;
+    --border-color: #323438;
+    --text-primary: #f7fff7;
+    --text-muted: #9aa0a6;
+    --accent-sage: #8fbb99;
+    --accent-sage-text: #0b0c0e;
+    --accent-soft: #2e2426;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: clip;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+}
+
+.font-editorial {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-style: italic;
+}
